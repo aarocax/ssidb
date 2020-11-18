@@ -1,5 +1,9 @@
 <?php
 
+/*
+ * Example: php scan.php {db_user} {db_server} {db_name} http://mdc.cbuc.cat/u?/
+ */
+
 if (count($argv) < 5) {
 	echo "Modo de empleo: scan.php DB_USER HOST DB_NAME REPLACE_STRING\n";
 	exit;
